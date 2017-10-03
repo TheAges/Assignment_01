@@ -1,13 +1,20 @@
 function setup() {
-  createCanvas(1100,600)
+  createCanvas(800,500)
 }
 
 function draw() {
+
  
-  background("#f2f3f4")
+ background("#f2f3f4")
   
-  fill("#d8d8d8");
-  rect(0,400,1100,200)
+ //riduci e centra
+ scale(80/100,80/100)
+ translate(-25,0)
+ 
+ //pavimento
+ fill("#d8d8d8");
+ rect(0,400,1100,300)
+
  
  //P5 Robot:
  
