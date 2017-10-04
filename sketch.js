@@ -13,7 +13,7 @@ function draw() {
  
  //pavimento
  fill("#d8d8d8");
- rect(0,400,1100,300)
+ rect(0,400,1100,1000)
 
  
  //P5 Robot:
